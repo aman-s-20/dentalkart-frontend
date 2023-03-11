@@ -16,7 +16,7 @@ function UserForm() {
         const formData = new FormData();
         
         formData.append('file', selectedFile);
-
+        //  console.log(formData);
          fetch(
             'http://localhost:3000/',
             {
