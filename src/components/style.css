@@ -17,14 +17,13 @@ body {
     background-color: dodgerblue;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; 
-  padding: 1rem 0.5rem;
-}
+.form1 {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    background-color: white;
+  }
 
 section {
     width: 100%;

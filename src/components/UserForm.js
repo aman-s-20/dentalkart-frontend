@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from "react"
+import './style.css';
 
 function UserForm() {
     const [selectedFile, setSelectedFile] = useState();
@@ -33,8 +34,8 @@ function UserForm() {
     };
 
     return (
-        <div>
-            <h1>hello</h1>
+        <div className='form1'>
+            <h1>Upload your csv file</h1>
 			<input type="file" name="file" onChange={changeHandler} />
 			{isFilePicked ? (
 				<div>
